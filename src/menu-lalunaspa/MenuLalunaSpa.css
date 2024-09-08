@@ -1,0 +1,119 @@
+.title-style {
+    text-align: center;
+    margin: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-size: 1.5rem;
+    color: rgb(170, 122, 34);
+    font-weight: bold;
+  }
+
+  
+.dish-subprice {
+    font-weight: 500;
+    font-size: medium;
+    margin: 10px 0;
+    color: rgb(170, 122, 34);
+}
+  
+.dish-description{
+    font-size: 13px;
+    font-weight: 350;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.logo-wrapper {
+    text-align: center;
+    background-color: rgb(245, 239, 228);
+    padding: 40px;
+}
+
+.logo{
+  width: 20%;
+  /* height:50%; */
+}
+
+.menu-wrapper{
+  background-color: rgb(245, 239, 228);
+  /* padding: 20px 0; */
+}
+
+.dish-name {
+font-size: medium;
+
+}
+
+.dish-price {
+font-size: medium;
+}
+
+.dish-number {
+font-size: medium;
+}
+
+.dish-picture{
+  border-radius: 50%;
+  width: 30%;
+  height: auto;
+}
+
+.header-wrapper{
+  background-color: rgb(245, 239, 228);
+  text-align: center;
+  color: rgb(170, 122, 34);
+  padding: 3rem;
+}
+
+.header{
+  border: 0.5px solid rgb(189, 160, 108);
+  padding: 1rem;
+  border-radius: 20px;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.first-line-header{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.second-line-header{
+  font-family:'Courier New', Courier, monospace
+}
+
+.third-line-header{
+  font-family:cursive
+
+}
+
+.space-header{
+  height: 10vh;
+}
+
+.open-close-hour{
+  margin: 0;
+}
+
+h1{
+  margin: 0
+}
+
+html {
+  background-color: rgb(245, 239, 228);
+}
+
+
+@media (max-width: 800px) {
+  .logo{
+    width: 35%;
+    /* height:100%; */
+  }
+  .dish-picture{
+    border-radius: 50%;
+    width: 60%;
+    height: auto;
+  }
+  .header{
+    width: 100%;
+  }
+    
+}

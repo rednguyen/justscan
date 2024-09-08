@@ -1,0 +1,28 @@
+.dish-picture-style {
+  text-align: center;
+}
+
+
+.dish-divider {
+  /* color: orange; */
+  font-weight: bolder;
+  font-size: large;
+  border: 0.5px solid rgb(189, 160, 108)
+} 
+
+.menu-container {
+  /* background-color: rgb(150, 85, 85); */
+  /* margin-top: 20px; */
+}
+
+
+.nav-tabs .nav-link {
+  background-color: rgb(201, 194, 184);
+  font-family: 'Times New Roman', Times, serif;
+  border-color: rgb(58, 56, 56) !important;
+  border-radius: 5px;
+  border-width: 2px;
+  color: rgb(83, 79, 69);
+}
+
+
