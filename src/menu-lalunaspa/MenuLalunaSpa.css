@@ -37,7 +37,7 @@
 
 .menu-wrapper{
   background-color: rgb(245, 239, 228);
-  /* padding: 20px 0; */
+  padding: 1px 0;
 }
 
 .dish-name {
@@ -97,10 +97,6 @@ font-size: medium;
 
 h1{
   margin: 0
-}
-
-html {
-  background-color: rgb(245, 239, 228);
 }
 
 
