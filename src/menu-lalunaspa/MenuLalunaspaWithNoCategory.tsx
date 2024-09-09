@@ -63,7 +63,7 @@ export default function MenuLalunaSpaWithNoCategory (props) {
                                     dish.subDishDescription.map((subDishDesc) => (
                                         <Row>
                                             <Col xs={1} className="dish-number">{dish.dishNumber}</Col> 
-                                            <Col className="dish-description">
+                                            <Col xs={10} className="dish-description">
                                                 <li>{subDishDesc}</li>
                                             </Col>
                                         </Row>
