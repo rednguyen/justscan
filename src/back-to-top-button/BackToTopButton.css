@@ -4,10 +4,11 @@
     bottom: 10px;
     border-radius: 100%;
     border: 1px solid transparent;
-    /* padding: 0.6em 1.2em; */
+    padding: auto;
     font-size: 2em;
     font-weight: 500;
     background-color:rgb(209, 200, 198);
+    color: black;
     cursor: pointer
 }
 
