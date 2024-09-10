@@ -42,14 +42,14 @@ export const metaMenu: Menu[] = [
                 {dishNumber: "", dishName: "PREMIUM WELLNESS PACKAGES", subPrices: [{subDescription: "1 Hour 15 Mins", subPrice: "1,530,000 VND"}], dishDescription: "This luxurious face and foot ritual stimulates energy flow, eliminates toxins and tones facial muscles, also promotes a feeling of pure relaxation that extends from head to toe to feel deeply revitalized and soothed. A perfect getaway to escape and de-stress from daily life", subDishDescription:["Hot Stone Massage 90 Mins", "Lifting Feather 45 Mins"], imageURL:"url.com"},
                 {dishNumber: "", dishName: "YOUR PATH TO SERENITY SPA DAY PACKAGE", subPrices: [{subDescription: "4 Hours 5 Mins", subPrice: "2,600,000 VND"}], dishDescription: "An unforgettable half day package consisting of five treatments created by Laluna Spa. Begin with a sauna or herbal bath. Saunas help relieve stress, relax aching muscles, cleanse the skin and improve cardiovascular performance, while a local herbal bath helps improve blood circulation, sleeping and breathing. This is followed by a Relaxation Treatment combining massage with essential oils. Next comes Laluna Spa Body Scrub to cleanse and exfoliate the skin concluding with a moisturizing face mask leaving your skin smooth and glowing. The Blissful Laluna Spa Day package is a wonderful treat for the mind, body and soul.", subDishDescription:['Laluna Spa Body Scrub 45', "Relaxation Treatment 90'", "Silky Beauty 60'", "Foot care 30'", "Sauna 20'"], imageURL:"url.com"}
             ],
-            imageURL:"spa1.jpg"
+            imageURL:"spa1.png"
         },
         {
             dishTitle: "RELAXING MOMENT",
             dishes: [
                 {dishNumber: "", dishName: "", subPrices: [], dishDescription: "If your time is limited, we have a number of short treatments to help you make the most of your time. Select the most suitable treatment(s) for you: ", subDishDescription:["Head, neck, back & shoulders massage 45':    480,000", "Hand, head, neck & shoulders massage 30':   350,000", "Foot Rest massage 30':  350,000"], imageURL:"url.com"}
             ],
-            imageURL:"spa2.jpg"
+            imageURL:"spa2.png"
         },
         {
             dishTitle: "FACIAL",
@@ -60,7 +60,7 @@ export const metaMenu: Menu[] = [
                 {dishNumber: "", dishName: "LIFTING FEATHER", subPrices: [{subDescription: "60 Mins", subPrice: "650,000 VND"}], dishDescription: "Experience complete relaxation with a Vietnamese manual facelift technique. The clay mask is then applied to draw out excess oil from the pores while retaining moisture and hydration. This facial treatment is tailored to make your skin feeling light as a feather.", subDishDescription:[], imageURL:"url.com"},
                 {dishNumber: "", dishName: "ANTI-AGING FACIAL TREATMENT WITH COLLAGEN MASK", subPrices: [{subDescription: "75 Mins", subPrice: "750,000 VND"}], dishDescription: "The extra collagen mask penetration into the skin resulting in wrinkle attenuation and a smoother, firmer, more youthful appearance.", subDishDescription:[], imageURL:"url.com"}
             ],
-            imageURL:"spa1.jpg"
+            imageURL:"spa3.png"
         },
         {
             dishTitle: "BODY MASSAGE",
@@ -78,7 +78,7 @@ export const metaMenu: Menu[] = [
                 {dishNumber: "", dishName: "TOTAL FOOT TREATMENT", subPrices: [{subDescription: "75 Mins", subPrice: "650,000 VND"}], dishDescription: "A complete care package and ultimate treat for feet. This treatment combines a foot massage focusing on pressure points with a dry and wet scrub to remove dead skin, leaving your feet silky smooth. It is an invigorating 'facelift' for your feet.", subDishDescription:[], imageURL:"url.com"},
 
             ],
-            imageURL:"spa1.jpg"
+            imageURL:"spa4.jpg"
         },
         {
             dishTitle: "BODY SKIN CARE",
@@ -91,7 +91,7 @@ export const metaMenu: Menu[] = [
                 {dishNumber: "", dishName: "BOTANICAL BODY WRAP", subPrices: [{subDescription: "60 Mins", subPrice: "590,000 VND"}], dishDescription: "This exquisite body wrap enriched with natural honey, oatmeal and fresh milk provides a moisturizing treatment to further balance and soften your skin.", subDishDescription:[], imageURL:"url.com"},
                 {dishNumber: "", dishName: "EXTRA PAMPERING", subPrices: [{subDescription: "SAUNA 30 Mins", subPrice: "300,000 VND"}], dishDescription: "Availability of service depends on the property.", subDishDescription:[], imageURL:"url.com"},
             ],
-            imageURL:"spa1.jpg"
+            imageURL:"spa5.png"
         },
         {
             dishTitle: "EXPERIENCE THE BEST OF LALUNA SPA - SPECIAL PACKAGES",
@@ -101,7 +101,7 @@ export const metaMenu: Menu[] = [
                 {dishNumber: "", dishName: "EARTH PACKAGE", subPrices: [{subDescription: "3 Hrs 20 Mins", subPrice: "2,040,000 VND"}], dishDescription: "This package draws on some of the best gifts the earth offers every day with special herbs, essential oils derived from trees and plants and mud products rich in salt and minerals. The blend of four treatments will leave you relaxed, cleansed and your skin feeling silky smooth.", subDishDescription:["Tension Relief Therapy 90'", "Tension Relief Therapy 45'", "Mud & Milk Body Wrap 45'", "Sauna 20'"], imageURL:"url.com"},
                 {dishNumber: "", dishName: "SKY PACKAGE", subPrices: [{subDescription: "3 Hrs 45 Mins", subPrice: "2,100,000 VND"}], dishDescription: "'Sky' is the imaginative way we like to refer this treatment which will leave you feeling in seventh heaven. A full body massage, complete foot therapy, remedy for oily skin will make you feel the sky's the limit after Laluna Spa's ultimate pampering experience.", subDishDescription:["Laluna Spa Body Scrub 45'","Relaxation treatment 90'","Lifting Feather 45'","Manicure or Pedicure Gel Color 45'"], imageURL:"url.com"},
            ],
-            imageURL:"spa1.jpg"
+            imageURL:"spa6.png"
         },
         {
             dishTitle: "NAIL SERVICE",
@@ -111,7 +111,7 @@ export const metaMenu: Menu[] = [
                 {dishNumber: "", dishName: "EXTRA", subPrices: [], dishDescription: "", subDishDescription:["Take Off Gel Polish (l5-30'): 170,000 VND","Heel Scrub 40': 200,000 VND","Art: 110,000 VND","Special Design: 550,000-900,000 VND"], imageURL:"foodsample.jpg"},
                 {dishNumber: "", dishName: "HAIR WASHING", subPrices: [], dishDescription: "", subDishDescription:["Hair Washing + Neck & Shoulder Head Massage 45': 450,000 VND", "Hair Washing + Facial Cleansing 45': 450,000 VND"], imageURL:"foodsample.jpg"},
             ],
-            imageURL:"spa1.jpg"
+            imageURL:"spa7.png"
         },
     ]
     }

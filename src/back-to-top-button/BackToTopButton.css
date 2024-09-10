@@ -1,0 +1,18 @@
+.top-btn{
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+    border-radius: 100%;
+    border: 1px solid transparent;
+    /* padding: 0.6em 1.2em; */
+    font-size: 2em;
+    font-weight: 500;
+    background-color:rgb(209, 200, 198);
+    cursor: pointer
+}
+
+.top-btn:hover {
+    background-color: black;
+    color: white;
+  }
+ 

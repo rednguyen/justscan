@@ -1,4 +1,4 @@
-.title-style {
+.title-style-lalunaspa {
     text-align: center;
     margin: 20px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
@@ -8,14 +8,14 @@
   }
 
   
-.dish-subprice {
+.dish-subprice-lalunaspa {
     font-weight: 500;
     font-size: medium;
     margin: 10px 0;
     color: rgb(170, 122, 34);
 }
   
-.dish-description{
+.dish-description-lalunaspa {
     font-size: 13px;
     font-weight: 350;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -24,49 +24,62 @@
 }
 
 
-.logo-wrapper {
+.logo-wrapper-lalunaspa {
     text-align: center;
     background-color: rgb(245, 239, 228);
     padding: 40px;
 }
 
-.logo{
+.logo-lalunaspa{
   width: 20%;
   /* height:50%; */
 }
 
-.menu-wrapper{
+.menu-wrapper-lalunaspa{
   background-color: rgb(245, 239, 228);
   padding: 1px 0;
 }
 
-.dish-name {
+.dish-name-lalunaspa {
 font-size: medium;
 
 }
 
-.dish-price {
+.dish-price-lalunaspa {
 font-size: medium;
 }
 
-.dish-number {
+.dish-number-lalunaspa {
 font-size: medium;
 }
 
-.dish-picture{
+.dish-picture-lalunaspa {
   border-radius: 50%;
   width: 30%;
   height: auto;
 }
 
-.header-wrapper{
+.dish-picture-style-lalunaspa {
+  text-align: center;
+}
+
+
+.dish-divider-lalunaspa {
+  /* color: orange; */
+  font-weight: bolder;
+  font-size: large;
+  border: 0.5px solid rgb(189, 160, 108)
+} 
+
+
+.header-wrapper-lalunaspa {
   background-color: rgb(245, 239, 228);
   text-align: center;
   color: rgb(170, 122, 34);
   padding: 3rem;
 }
 
-.header{
+.header-lalunaspa {
   border: 0.5px solid rgb(189, 160, 108);
   padding: 1rem;
   border-radius: 20px;
@@ -74,43 +87,40 @@ font-size: medium;
   margin: 0 auto;
 }
 
-.first-line-header{
+.first-line-header-lalunaspa {
   font-family: 'Times New Roman', Times, serif;
+  margin: 0
 }
 
-.second-line-header{
+.second-line-header-lalunaspa {
   font-family:'Courier New', Courier, monospace
 }
 
-.third-line-header{
+.third-line-header-lalunaspa {
   font-family:cursive
 
 }
 
-.space-header{
+.space-header-lalunaspa {
   height: 10vh;
 }
 
-.open-close-hour{
+.open-close-hour-lalunaspa {
   margin: 0;
-}
-
-h1{
-  margin: 0
 }
 
 
 @media (max-width: 800px) {
-  .logo{
+  .logo-lalunaspa {
     width: 35%;
     /* height:100%; */
   }
-  .dish-picture{
+  .dish-picture-lalunaspa {
     border-radius: 50%;
     width: 60%;
     height: auto;
   }
-  .header{
+  .header-lalunaspa {
     width: 100%;
   }
     
