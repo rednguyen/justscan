@@ -41,16 +41,16 @@
 }
 
 .dish-name-lalunaspa {
-font-size: medium;
-
+  font-size: medium;
+  font-weight: 500;
 }
 
 .dish-price-lalunaspa {
-font-size: medium;
+  font-size: medium;
 }
 
 .dish-number-lalunaspa {
-font-size: medium;
+  font-size: medium;
 }
 
 .dish-picture-lalunaspa {
