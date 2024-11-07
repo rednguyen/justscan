@@ -46,7 +46,7 @@ export default function BeBong () {
             <Img src='/bebong/bebong.png'/>
         </Wrapper>
         <Footer>
-              If Life doesn't make me happy, then Money Does!
+              If Life doesn't make me happy, then Money does!
         </Footer>
             
         </>
