@@ -1,6 +1,7 @@
 import MenuLalunaSpa from './menu-lalunaspa/MenuLalunaSpa';
 import PageNotFound from './page-not-found/PageNotFound';
 import BeBong from './be-bong/BeBong';
+import MenuLalunaTour from './menu-lalunatour/MenuLalunaTour';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import "./App.css"
 
@@ -12,6 +13,7 @@ export default function App() {
           <Routes>
               <Route path="/main-menu/lalunaspa/" element={<MenuLalunaSpa/>}/>
               <Route path="/main-menu/bebong/" element={<BeBong/>}/>
+              <Route path="/main-menu/lalunatour/" element={<MenuLalunaTour/>}/>
               <Route
                     path="*" element={<PageNotFound />}/>
           </Routes>
