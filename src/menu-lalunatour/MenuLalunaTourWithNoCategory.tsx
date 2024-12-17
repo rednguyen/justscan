@@ -72,7 +72,7 @@ const  Time = styled.div`
     font-weight: bold;
 `;
 
-const Content = styled.div`
+const Content = styled.span`
     font-weight: 500;
     font-size: small;
     color: rgb(170, 122, 34);
@@ -112,6 +112,10 @@ const Image = styled.img`
     height: auto;
 `;
 
+const Sign = styled.span`
+    color: rgb(56, 47, 30);
+    font-weight: 1000
+`
 
 
 export default function MenuLalunaTourWithNoCategory (props) {
@@ -171,13 +175,14 @@ export default function MenuLalunaTourWithNoCategory (props) {
                        
                         {
                             (menu.content).map(contentItem => (
+                               
                                 <Row>
-                                    
-                                        <Content>
-                                        ⇨{contentItem}        
-                                        </Content>
-                                    
+                                    <Col xs={1}><Sign>⇨</Sign></Col>
+                                    <Col xs={11}><Sign><Content>
+                                        {contentItem}
+                                    </Content> </Sign></Col>   
                                 </Row>
+                                 
                             ))
                         }
                            
@@ -190,10 +195,12 @@ export default function MenuLalunaTourWithNoCategory (props) {
 
                             {
                                 (menu.include).map(includeItem => (
-                                    <Row>
-                                            <Content>
-                                            ✔ {includeItem}
-                                            </Content>
+                                    <Row>   
+
+                                        <Col xs={1}><Sign>✓</Sign></Col>
+                                        <Col xs={11}><Sign><Content>
+                                            {includeItem}
+                                        </Content> </Sign></Col>        
                                     </Row>
                                 ))
                             }
@@ -203,9 +210,10 @@ export default function MenuLalunaTourWithNoCategory (props) {
                             {
                                 (menu.exclude).map(excludeItem => (
                                     <Row>
-                                            <Content>
-                                            ✘ {excludeItem}
-                                            </Content>
+                                        <Col xs={1}><Sign>✗</Sign></Col>
+                                        <Col xs={11}><Sign><Content>
+                                            {excludeItem}
+                                        </Content> </Sign></Col>   
                                     </Row>
                                 ))
                             }
