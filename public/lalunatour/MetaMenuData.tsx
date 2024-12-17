@@ -43,7 +43,7 @@ export const metaMenu: TourInfo[] = [
         img: "tour1.jpg"
     },
     {
-        title: "MY SON HOLYLAND",
+        title: "AMAZING MY SON HOLYLAND",
         subTitle: '"Luxury Morning Tour"',
         depart: "Depart: 7:30 from Hoi An",
         finish: "Finish: 14:00 at Hoi An",
@@ -71,6 +71,112 @@ export const metaMenu: TourInfo[] = [
         ],
         id: "my-son",
         img: "tour2.jpg"
-    }
+    },
+    {
+        title: "MY SON HOLYLAND",
+        subTitle: '"Sunset Tour"',
+        depart: "Depart: 13:00 - 13:30 from Hoi An",
+        finish: "Finish: 18:00 at Hoi An",
+        content: [
+            "⇨ 13:00-13:30: Our guide pick you up at the lobby and depart to My Son Sanctuary - The World Cultural Heritage.",
+            "⇨ 15:00: Arrive at My Son and we’ll have 2 hours to discover the site by walking through the landscape, learning histories with our local English speaking guide, enjoying the Champa’s traditional performances.",
+            "⇨ 17:15: Get back to the car then transfer to the wharf for taking a boat trip to Hoi An with nice and cool breeze on boarding, beautiful sunset river scenery on the biggest river in the Central of Viet Nam named as Thu Bon River. Get your camera ready for the amazing moment of local people activities along the river.",
+            "⇨ 18:00: Arrive at Hoi An. Tour ends.",
+        ],
+        include: [
+            "✔ A two ways hotel pick up and drop off (100km round trip in distance)",
+            "✔ The 150.000 vnd entrance fees andElectric car transfer fee",
+            "✔ Vietnamese Banh My ( local food)",
+            "✔ English-speaking guide",
+            "✔ A bottle of water",
+            "✔ Cool towel"
+        ],
+        exclude: [
+            "✘ Personal expense services not mentioned above",
+            "✘ Drinks",
+            "✘ Tips & gratuities for guides and drivers"
+        ],
+        id: "my-son-sunset",
+        img: "tour3.jpg"
+    },
+    {
+        title: "MARBLE MOUNTAINS - MONKEY MOUNTAINS AM PHU CAVE",
+        subTitle: '"Morning Tour"',
+        depart: "Depart: 07:30 - 08:00 from Hoi An",
+        finish: "Finish: 13:00 at Hoi An",
+        content: [
+            "⇨ 07:30 - 08:00: Our guide pick you up at lobby and transfer to Da Nang city (around 30km)",
+            "⇨ 08:30: Arrive in Marble Mountains ans stop for a walk along the site to see local factories of stone sculptures - the most impressive handicrafts village in Da Nang.",
+            "⇨ 09:00 - 10:30: Check in the Marble Mountains by climbing up to the top (elevator is optional). Here we will see beautiful pagodas which were made from 19th century by the last dynasty of Viet Nam monarchy and visit Huyền Không and Tàng Chơn caves.",
+            "⇨ 10:30 - 11:00: Keep going to see the biggest fascinated cave named as Âm Phủ. You will learn interesting philosophies of Buddhism and take photos with amazing natural creation.",
+            "⇨ 11:00: Have lunch at local restaurant with local and authentic Vietnamese cuisines.",
+            "⇨ 11:45: Our car will transfer you to the next stop - Monkey Mountain. A giant statue Lady Buddha with beautiful background such as mountains and huge garden of bonsai would draw your attention. You will definitely get lost in the garden of heaven with gripping stories when gently walking and enjoy a fresh breeze.",
+            "⇨ 13:00: Tour ends and we will head back to the hotel.",
+        ],
+        include: [
+            "✔ A two ways hotel pick up and drop off (90km round trip in distance)",
+            "✔ The entrance fees of Marble Mountains and Am Phu Cave.",
+            "✔ Lunch with local dish",
+            "✔ English-speaking guide",
+            "✔ A bottle of water",
+        ],
+        exclude: [
+            "✘ Personal expense services not mentioned above",
+            "✘ Drinks",
+            "✘ Tips & gratuities for guides and drivers"
+        ],
+        id: "marble-mountain",
+        img: "tour4.jpg"
+    },
+    {
+        title: "MARBLE MOUNTAINS - MONKEY MOUNTAINS AM PHU CAVE",
+        subTitle: '"Sunset Tour"',
+        depart: "Depart: 14:00 from Hoi An",
+        finish: "Finish: 18:00 at Hoi An",
+        content: [
+            "⇨ 14:00: The guide will pick you up at the lobby for heading to Da Nang to visit the Marble Mountain and absorb knowledge about religions and gain insight into differences between Buddhism and Hinduism.",
+            "⇨ 16:00: Visit Am Phu cave - walk through a devilish underworld full of demons.",
+            "⇨ 16:30: The car will transfer you to the Monkey Mountain to see the biggest statue of Lady Buddha in the Central Viet Nam with a height of 67m. Enjoy beautiful mountain sceneries and romantic sunset from the top of Son Tra peninsula.",
+            "⇨ 18:00: Tour ends and head back to Hoi An.",
+        ],
+        include: [
+            "✔ A two ways hotel pick up and drop off (90km round trip in distance)",
+            "✔ The entrance fees of Marble Mountains and Am Phu Cave.",
+            "✔ English-speaking guide",
+            "✔ A bottle of water",
+        ],
+        exclude: [
+            "✘ Personal expense services not mentioned above.",
+            "✘ Drinks",
+            "✘ Tips & gratuities for guides and drivers"
+        ],
+        id: "marble-mountain-sunset",
+        img: "tour5.jpg"
+    },
+    {
+        title: "CAM THANH COCONUT JUNGLE",
+        subTitle: '"Eco Tour"',
+        depart: "Depart: 09:00 from Hoi An 15:00",
+        finish: "Finish: 18:00 at Hoi An",
+        content: [
+            "⇨ 14:00: The guide will pick you up at the lobby for heading to Da Nang to visit the Marble Mountain and absorb knowledge about religions and gain insight into differences between Buddhism and Hinduism.",
+            "⇨ 16:00: Visit Am Phu cave - walk through a devilish underworld full of demons.",
+            "⇨ 16:30: The car will transfer you to the Monkey Mountain to see the biggest statue of Lady Buddha in the Central Viet Nam with a height of 67m. Enjoy beautiful mountain sceneries and romantic sunset from the top of Son Tra peninsula.",
+            "⇨ 18:00: Tour ends and head back to Hoi An.",
+        ],
+        include: [
+            "✔ A two ways hotel pick up and drop off (90km round trip in distance)",
+            "✔ The entrance fees of Marble Mountains and Am Phu Cave.",
+            "✔ English-speaking guide",
+            "✔ A bottle of water",
+        ],
+        exclude: [
+            "✘ Personal expense services not mentioned above.",
+            "✘ Drinks",
+            "✘ Tips & gratuities for guides and drivers"
+        ],
+        id: "marble-mountain-sunset",
+        img: "tour5.jpg"
+    },
 ]
 
