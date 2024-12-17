@@ -174,7 +174,7 @@ export default function MenuLalunaTourWithNoCategory (props) {
                                 <Row>
                                     
                                         <Content>
-                                            {contentItem}        
+                                        ⇨{contentItem}        
                                         </Content>
                                     
                                 </Row>
@@ -192,7 +192,7 @@ export default function MenuLalunaTourWithNoCategory (props) {
                                 (menu.include).map(includeItem => (
                                     <Row>
                                             <Content>
-                                                {includeItem}
+                                            ✔ {includeItem}
                                             </Content>
                                     </Row>
                                 ))
@@ -204,7 +204,7 @@ export default function MenuLalunaTourWithNoCategory (props) {
                                 (menu.exclude).map(excludeItem => (
                                     <Row>
                                             <Content>
-                                                {excludeItem}
+                                            ✘ {excludeItem}
                                             </Content>
                                     </Row>
                                 ))
