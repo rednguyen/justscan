@@ -72,7 +72,7 @@ const  Time = styled.div`
     font-weight: bold;
 `;
 
-const Content = styled.span`
+const Content = styled.div`
     font-weight: 500;
     font-size: small;
     color: rgb(170, 122, 34);
@@ -112,7 +112,7 @@ const Image = styled.img`
     height: auto;
 `;
 
-const Sign = styled.span`
+const Sign = styled.div`
     color: rgb(56, 47, 30);
     font-weight: 1000
 `
