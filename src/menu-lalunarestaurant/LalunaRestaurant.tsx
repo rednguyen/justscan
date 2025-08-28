@@ -22,7 +22,15 @@ export default function LalunaRestaurant () {
           <Img src='/lalunarestaurant/alacarte9.jpg'/>
           <Img src='/lalunarestaurant/alacarte10.jpg'/>
           <Img src='/lalunarestaurant/alacarte11.jpg'/>
-          <Img src='/lalunarestaurant/alacarte12.jpg'/>
+          {/* <Img src='/lalunarestaurant/alacarte12.jpg'/> */}
+          <Img src='/lalunarestaurant/beverage1.jpg'/>
+          <Img src='/lalunarestaurant/beverage2.jpg'/>
+          <Img src='/lalunarestaurant/beverage3.jpg'/>
+          <Img src='/lalunarestaurant/beverage4.jpg'/>
+          <Img src='/lalunarestaurant/beverage5.jpg'/>
+          <Img src='/lalunarestaurant/beverage6.jpg'/>
+          <Img src='/lalunarestaurant/beverage7.jpg'/>
+          <Img src='/lalunarestaurant/beverage8.jpg'/>
         </>
     )
 }
