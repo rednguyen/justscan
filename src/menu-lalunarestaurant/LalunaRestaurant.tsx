@@ -31,6 +31,16 @@ export default function LalunaRestaurant () {
           <Img src='/lalunarestaurant/beverage6.jpg'/>
           <Img src='/lalunarestaurant/beverage7.jpg'/>
           <Img src='/lalunarestaurant/beverage8.jpg'/>
+          <Img src='/lalunarestaurant/spa0.jpg'/>
+          <Img src='/lalunarestaurant/spa1.jpg'/>
+          <Img src='/lalunarestaurant/spa2.jpg'/>
+          <Img src='/lalunarestaurant/spa3.jpg'/>
+          <Img src='/lalunarestaurant/spa4.jpg'/>
+          <Img src='/lalunarestaurant/spa5.jpg'/>
+          <Img src='/lalunarestaurant/spa6.jpg'/>
+          <Img src='/lalunarestaurant/spa7.jpg'/>
+          <Img src='/lalunarestaurant/spa8.jpg'/>
+          <Img src='/lalunarestaurant/spa9.jpg'/>
         </>
     )
 }
