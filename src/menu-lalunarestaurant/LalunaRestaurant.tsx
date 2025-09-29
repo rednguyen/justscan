@@ -40,7 +40,6 @@ export default function LalunaRestaurant () {
           <Img src='/lalunarestaurant/spa6.jpg'/>
           <Img src='/lalunarestaurant/spa7.jpg'/>
           <Img src='/lalunarestaurant/spa8.jpg'/>
-          <Img src='/lalunarestaurant/spa9.jpg'/>
         </>
     )
 }
